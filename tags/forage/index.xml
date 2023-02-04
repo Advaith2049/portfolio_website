@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forage on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/tags/forage/</link>
+    <description>Recent content in Forage on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://Advaith2049.github.io/portfolio_website/tags/forage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analytics Consulting Virtual Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/kpmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/kpmg/</guid>
+      <description>The Data Analytics Consulting Virtual Internship by KPMG was my initial guide into the world of data analytics.
+The entire experience was divided into three modules - Data Quality Assessment, Data Insights, and Presentation.
+Data Quality Assessment dealed with the preparation and cleaning of data to get it ready for analysis. A dataset related to bicycle sales was provided.
+Data Insights involved figuring out the high value customers based on customer demographics and attributes.</description>
+    </item>
+    
+  </channel>
+</rss>

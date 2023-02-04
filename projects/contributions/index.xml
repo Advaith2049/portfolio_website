@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certifications on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/</link>
+    <description>Recent content in Certifications on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 16:49:15 +0000</lastBuildDate><atom:link href="https://Advaith2049.github.io/portfolio_website/projects/contributions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analytics Consulting Virtual Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/kpmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/kpmg/</guid>
+      <description>The Data Analytics Consulting Virtual Internship by KPMG was my initial guide into the world of data analytics.
+The entire experience was divided into three modules - Data Quality Assessment, Data Insights, and Presentation.
+Data Quality Assessment dealed with the preparation and cleaning of data to get it ready for analysis. A dataset related to bicycle sales was provided.
+Data Insights involved figuring out the high value customers based on customer demographics and attributes.</description>
+    </item>
+    
+    <item>
+      <title>Solutions Architect Virtual Experience Program</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/aws/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/aws/</guid>
+      <description>The AWS Solutions Architect Virtual Experience Program was an insightful and detailed look into understanding the work of a Solutions Architect.
+The Program gave a wonderful opportunity to put myself in the shoes of an Architect and perform tasks that simulated the real life work.
+The main aim of the module was to design a simple, scalable, hosting architecture and compile it as a letter to the client.
+The task gave me an understanding of the various services that AWS provides like CodePipeline, RDS, and Elastic Load Balancing among others.</description>
+    </item>
+    
+    <item>
+      <title>Data Science And Machine Learning Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</link>
+      <pubDate>Tue, 07 Jan 2020 17:08:21 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</guid>
+      <description>The Data Science &amp;amp; Machine Learning Internship provided by UNP (United Network of Professionals) was an excellent introduction to the foundational topics of data science.
+It initially tackled the basics of Python language, and informed about various aspects like lists, loops, and several packages including pandas, numpy, and seaborn among others.
+The course futher progressed to introducing datasets into picture, on which we were supposed to apply basic algorithms like linear regression and logistic regression.</description>
+    </item>
+    
+  </channel>
+</rss>

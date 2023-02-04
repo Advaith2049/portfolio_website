@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creations on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/projects/creations/</link>
+    <description>Recent content in Creations on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate><atom:link href="https://Advaith2049.github.io/portfolio_website/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Used Car Price Prediction using Machine Learning</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/</guid>
+      <description>Used Car Price Prediction: An Overview Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective
+Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points
+Fit the processed data into various models including Linear Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison
+Charted a comparison table for the ease of determining the best model and accuracy</description>
+    </item>
+    
+    <item>
+      <title>Bank Term Deposit Prediction using Machine Learning</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/term_deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/term_deposit/</guid>
+      <description>Bank Term Deposit Prediction: An Overview Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective
+Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points
+Fit the processed data into various models including Logistic Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison
+Charted a comparison table for the ease of determining the best model and accuracy</description>
+    </item>
+    
+    <item>
+      <title>IMDB Web Scraping &amp; Analysis</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/imdb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/imdb/</guid>
+      <description>IMDB Web Scraping &amp;amp; Analysis</description>
+    </item>
+    
+  </channel>
+</rss>

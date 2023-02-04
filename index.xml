@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/</link>
+    <description>Recent content in Home on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="https://Advaith2049.github.io/portfolio_website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analytics Consulting Virtual Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/kpmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/kpmg/</guid>
+      <description>The Data Analytics Consulting Virtual Internship by KPMG was my initial guide into the world of data analytics.
+The entire experience was divided into three modules - Data Quality Assessment, Data Insights, and Presentation.
+Data Quality Assessment dealed with the preparation and cleaning of data to get it ready for analysis. A dataset related to bicycle sales was provided.
+Data Insights involved figuring out the high value customers based on customer demographics and attributes.</description>
+    </item>
+    
+    <item>
+      <title>Organically DevOps: Building Quality and Security into the Software Supply Chain at Liberty Mutual</title>
+      <link>https://Advaith2049.github.io/portfolio_website/publications/alldaydevops/</link>
+      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/publications/alldaydevops/</guid>
+      <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
+Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
+    </item>
+    
+    <item>
+      <title>Solutions Architect Virtual Experience Program</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/aws/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/aws/</guid>
+      <description>The AWS Solutions Architect Virtual Experience Program was an insightful and detailed look into understanding the work of a Solutions Architect.
+The Program gave a wonderful opportunity to put myself in the shoes of an Architect and perform tasks that simulated the real life work.
+The main aim of the module was to design a simple, scalable, hosting architecture and compile it as a letter to the client.
+The task gave me an understanding of the various services that AWS provides like CodePipeline, RDS, and Elastic Load Balancing among others.</description>
+    </item>
+    
+    <item>
+      <title>Data Science And Machine Learning Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</link>
+      <pubDate>Tue, 07 Jan 2020 17:08:21 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</guid>
+      <description>The Data Science &amp;amp; Machine Learning Internship provided by UNP (United Network of Professionals) was an excellent introduction to the foundational topics of data science.
+It initially tackled the basics of Python language, and informed about various aspects like lists, loops, and several packages including pandas, numpy, and seaborn among others.
+The course futher progressed to introducing datasets into picture, on which we were supposed to apply basic algorithms like linear regression and logistic regression.</description>
+    </item>
+    
+    <item>
+      <title>Used Car Price Prediction using Machine Learning</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/</guid>
+      <description>Used Car Price Prediction: An Overview Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective
+Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points
+Fit the processed data into various models including Linear Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison
+Charted a comparison table for the ease of determining the best model and accuracy</description>
+    </item>
+    
+    <item>
+      <title>Forcing Visits to use SSL</title>
+      <link>https://Advaith2049.github.io/portfolio_website/blog/force-ssl/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/blog/force-ssl/</guid>
+      <description>Intro Doesn&amp;rsquo;t matter whether it&amp;rsquo;s a CakePHP app for a client, your own personal CMS, or any other web based application. If your passing around passwords or other sensitive info you should really implement SSL. SSL provides 2 main perks to your visitors.
+First it encrypts all communication that flies across the web. This prevents curious or devious billies from getting your secrets. Secondly it ensures to the user that your server is in fact who it claims, and not a nasty &amp;lsquo;man in the middle&amp;quot; attack.</description>
+    </item>
+    
+    <item>
+      <title>Bank Term Deposit Prediction using Machine Learning</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/term_deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/term_deposit/</guid>
+      <description>Bank Term Deposit Prediction: An Overview Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective
+Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points
+Fit the processed data into various models including Logistic Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison
+Charted a comparison table for the ease of determining the best model and accuracy</description>
+    </item>
+    
+    <item>
+      <title>IMDB Web Scraping &amp; Analysis</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/imdb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/imdb/</guid>
+      <description>IMDB Web Scraping &amp;amp; Analysis</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://Advaith2049.github.io/portfolio_website/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml
+[outputs] home = [&amp;#34;HTML&amp;#34;, &amp;#34;JSON&amp;#34;] Searching additional fileds To search additional fields defined in front matter, you must add it in 2 places.</description>
+    </item>
+    
+  </channel>
+</rss>

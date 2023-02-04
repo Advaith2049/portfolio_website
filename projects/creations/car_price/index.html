@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Advaith Achanta | Used Car Price Prediction using Machine Learning</title>
+  <meta name="description" content="The objective is to develop an efficient model for mapping price of used cars to other related independent features and also to predict future car prices.">
+
+  
+  
+    <meta property="og:image" content="https://Advaith2049.github.io/portfolio_website/img/head.jpg" />
+    <meta property="og:title" content="Advaith Achanta | Used Car Price Prediction using Machine Learning" />   
+  
+  <meta property="og:description" content="The objective is to develop an efficient model for mapping price of used cars to other related independent features and also to predict future car prices." />
+  <meta name="author" content="Advaith Achanta">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="https://Advaith2049.github.io/portfolio_website/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://Advaith2049.github.io/portfolio_website/css/resume.css"></noscript>
+  <link rel="preload" href="https://Advaith2049.github.io/portfolio_website/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://Advaith2049.github.io/portfolio_website/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://Advaith2049.github.io/portfolio_website/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://Advaith2049.github.io/portfolio_website/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.100.0" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Advaith Achanta</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/portfolio_website/img/head.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/portfolio_website/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://Advaith2049.github.io/portfolio_website/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://Advaith2049.github.io/portfolio_website/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://Advaith2049.github.io/portfolio_website/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/">Used Car Price Prediction using Machine Learning</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Used Car Price Prediction using Machine Learning</span></h2>
+    <h4 id="used-car-price-prediction-an-overview"><strong>Used Car Price Prediction: An Overview</strong></h4>
+<ul>
+<li>
+<p>Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective</p>
+</li>
+<li>
+<p>Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points</p>
+</li>
+<li>
+<p>Fit the processed data into various models including Linear Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison</p>
+</li>
+<li>
+<p>Charted a comparison table for the ease of determining the best model and accuracy</p>
+</li>
+</ul>
+<h4 id="codes-and-resources-used"><strong>Codes and Resources Used</strong></h4>
+<ul>
+<li>
+<p><strong>Programming Language:</strong> Python 3.11.1</p>
+</li>
+<li>
+<p><strong>Packages:</strong> pandas, numpy, seaborn, matplotlib, scipy, sklearn, statsmodels, tensorflow</p>
+</li>
+</ul>
+<h4 id="about-the-dataset"><strong>About the Dataset</strong></h4>
+<ul>
+<li>
+<p>The Car Price Prediction dataset has a total of 18 columns and 19237 rows.</p>
+</li>
+<li>
+<p>There are no null values across the data, and the data types range from &lsquo;object&rsquo; type to &lsquo;integer&rsquo; type.</p>
+</li>
+<li>
+<p>The target (or) dependent variable which needs to be predicted is the column &lsquo;Price&rsquo;</p>
+</li>
+</ul>
+<h4 id="data-cleaning"><strong>Data Cleaning</strong></h4>
+<p>After the data was loaded in with pandas, it was cleaned, and the following changes were made:</p>
+<ul>
+<li>
+<p>Columns like ‘Prod. year’, ‘Engine volume’, ‘Gear box type’, among others were renamed to more simpler and suitable names</p>
+</li>
+<li>
+<p>Data columns were divided into numeric type and object type for the ease of working and conversion</p>
+</li>
+<li>
+<p>‘ID’ column was dropped</p>
+</li>
+<li>
+<p>‘km’ string was dropped from the ‘Mileage’ column and was converted into a float column</p>
+</li>
+<li>
+<p>‘Engine_vol’ column was standardized by the creation of another column, ‘Engine_type’, which stored binary values of ‘Turbo’ or ‘Non-Turbo’</p>
+</li>
+<li>
+<p>Outliers were detected in the columns – Levy, Cylinders, Airbags, Engine_vol, Mileage, and Price, and subsequently removed</p>
+</li>
+</ul>
+<h4 id="eda-exploratory-data-analysis"><strong>EDA (Exploratory Data Analysis)</strong></h4>
+<p>Some highlights of the EDA are as follows:</p>
+<p><img src="/images/1.png" alt="image info"></p>
+<h4 id="feature-selection-and-pre-processing"><strong>Feature Selection and Pre-Processing</strong></h4>
+<ul>
+<li>
+<p>VIF or Variance Inflation Factor was utilised to select the features that would influence the target variable the most.</p>
+</li>
+<li>
+<p>‘Cylinders’, ‘Engine_vol’, and ‘Levy’ were dropped to ensure a better VIF score and less multicolinearity.</p>
+</li>
+</ul>
+<h4 id="model-building"><strong>Model Building</strong></h4>
+<p>The categorical variables were first transformed into dummy variables using ‘OneHotEncoder’ and ‘ColumnTransformer’. Then, the entire dataset was split into training and testing datasets of the ratio 80:20. Multiple models were applied and MAE or Mean Absolute Error was the metric used to evaluate these models.</p>
+<p>The applied models were:</p>
+<ul>
+<li>Linear Regression</li>
+<li>Boosting (Gradient, Ada Boost, XG Boost)</li>
+<li>Bagging</li>
+<li>Decision Tree Regressor</li>
+<li>Random Forest Regressor</li>
+<li>KNN</li>
+<li>SVM</li>
+<li>Neural Networks</li>
+</ul>
+<h4 id="model-performance"><strong>Model Performance</strong></h4>
+<p>The Bagging Repressor outperformed all the models and the model comparison table is as follows:</p>
+
+    <p>Project link: <a href="https://github.com/Advaith2049/Used-Car-Price-Prediction-Using-Machine-Learning">https://github.com/Advaith2049/Used-Car-Price-Prediction-Using-Machine-Learning</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/portfolio_website/tags/python">Python</a></li>
+    
+      <li><a class="tag" href="/portfolio_website/tags/machine-learning">Machine Learning</a></li>
+    
+      <li><a class="tag" href="/portfolio_website/tags/linear-regression">Linear Regression</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>

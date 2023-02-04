@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:08:21 +0000</lastBuildDate><atom:link href="https://Advaith2049.github.io/portfolio_website/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science And Machine Learning Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</link>
+      <pubDate>Tue, 07 Jan 2020 17:08:21 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</guid>
+      <description>The Data Science &amp;amp; Machine Learning Internship provided by UNP (United Network of Professionals) was an excellent introduction to the foundational topics of data science.
+It initially tackled the basics of Python language, and informed about various aspects like lists, loops, and several packages including pandas, numpy, and seaborn among others.
+The course futher progressed to introducing datasets into picture, on which we were supposed to apply basic algorithms like linear regression and logistic regression.</description>
+    </item>
+    
+    <item>
+      <title>Used Car Price Prediction using Machine Learning</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/car_price/</guid>
+      <description>Used Car Price Prediction: An Overview Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective
+Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points
+Fit the processed data into various models including Linear Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison
+Charted a comparison table for the ease of determining the best model and accuracy</description>
+    </item>
+    
+    <item>
+      <title>Bank Term Deposit Prediction using Machine Learning</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/creations/term_deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/creations/term_deposit/</guid>
+      <description>Bank Term Deposit Prediction: An Overview Cleaned the dataset, removed outliers, and pre-processed the data in a format suitable to the objective
+Performed extensive EDA or Exploratory Data Analysis to understand the relationships between the variables and data points
+Fit the processed data into various models including Logistic Regression, Random Forest, KNN, SVM, among several other algorithms, to make predictions and arrive at the best model through comparison
+Charted a comparison table for the ease of determining the best model and accuracy</description>
+    </item>
+    
+  </channel>
+</rss>

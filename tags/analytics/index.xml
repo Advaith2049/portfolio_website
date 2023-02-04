@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/tags/analytics/</link>
+    <description>Recent content in Analytics on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:08:21 +0000</lastBuildDate><atom:link href="https://Advaith2049.github.io/portfolio_website/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science And Machine Learning Internship</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</link>
+      <pubDate>Tue, 07 Jan 2020 17:08:21 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/unp/</guid>
+      <description>The Data Science &amp;amp; Machine Learning Internship provided by UNP (United Network of Professionals) was an excellent introduction to the foundational topics of data science.
+It initially tackled the basics of Python language, and informed about various aspects like lists, loops, and several packages including pandas, numpy, and seaborn among others.
+The course futher progressed to introducing datasets into picture, on which we were supposed to apply basic algorithms like linear regression and logistic regression.</description>
+    </item>
+    
+  </channel>
+</rss>
