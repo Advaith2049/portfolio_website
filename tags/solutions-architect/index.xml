@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solutions Architect on Advaith Achanta</title>
+    <link>https://Advaith2049.github.io/portfolio_website/tags/solutions-architect/</link>
+    <description>Recent content in Solutions Architect on Advaith Achanta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate><atom:link href="https://Advaith2049.github.io/portfolio_website/tags/solutions-architect/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions Architect Virtual Experience Program</title>
+      <link>https://Advaith2049.github.io/portfolio_website/projects/contributions/aws/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>https://Advaith2049.github.io/portfolio_website/projects/contributions/aws/</guid>
+      <description>The AWS Solutions Architect Virtual Experience Program was an insightful and detailed look into understanding the work of a Solutions Architect.
+The Program gave a wonderful opportunity to put myself in the shoes of an Architect and perform tasks that simulated the real life work.
+The main aim of the module was to design a simple, scalable, hosting architecture and compile it as a letter to the client.
+The task gave me an understanding of the various services that AWS provides like CodePipeline, RDS, and Elastic Load Balancing among others.</description>
+    </item>
+    
+  </channel>
+</rss>
